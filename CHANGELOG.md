@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.3](https://github.com/csa-my/starter-project/compare/starter-project-v1.3.2...starter-project-v1.3.3) (2023-07-18)
+
+
+### Bug Fixes
+
+* attempting to log ci ([ef45df4](https://github.com/csa-my/starter-project/commit/ef45df4dc5573f87b517f6ccc40341af08dfd0a0))
+
 ## [1.3.2](https://github.com/csa-my/starter-project/compare/starter-project-v1.3.1...starter-project-v1.3.2) (2023-07-18)
 
 
