@@ -1,6 +1,7 @@
 {
+    "bootstrap-sha": "7c1539a3f3ef21cbc222662bc9d6e9e586f9f1be",
     "release-type": "node",
-    "pull-request-title-pattern": "chore${branch}: staging-release ${version}",
+    "pull-request-title-pattern": "chore(${branch}): staging-release ${version}",
     "packages": {
         ".": {
             "package-name": "staging",
