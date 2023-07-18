@@ -16,7 +16,7 @@ jobs:
       release_created: ${{ steps.release-please.outputs.release_created }}
       tag_name: ${{ steps.release-please.outputs.tag_name }}
       version: ${{ steps.release-please.outputs.version }}
-      pr: ${{ steps.release-please.outputs.pr }}
+      # pr: ${{ steps.release-please.outputs.pr }}
       # all: ${{ toJSON(steps.release-please.outputs) }}
     steps:
       - uses: google-github-actions/release-please-action@v3
@@ -34,6 +34,7 @@ jobs:
           echo "sha: ${{ steps.release-please.outputs.sha }}"
           echo "body: ${{ steps.release-please.outputs.body }}"
           echo "pr: ${{ steps.release-please.outputs.pr }}"
+          echo "prs: ${{ steps.release-please.outputs.prs }}"
 
   staging:
     runs-on: ubuntu-latest
