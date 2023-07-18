@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.4](https://github.com/csa-my/starter-project/compare/staging-v1.6.3...staging-v1.6.4) (2023-07-18)
+
+
+### Bug Fixes
+
+* altered console log for ci ([0cd0111](https://github.com/csa-my/starter-project/commit/0cd01115303d3756cc49861de4e93d500bda73bf))
+
 ## [1.6.3](https://github.com/csa-my/starter-project/compare/staging-v1.6.2...staging-v1.6.3) (2023-07-18)
 
 
