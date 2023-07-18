@@ -26,6 +26,7 @@ jobs:
           release-type: node
           package-name: release-please-action
           default-branch: release
+          release-as: 1.6.3
       - run: echo "A release was created."
           
 
