@@ -1,7 +1,9 @@
 {
     "release-type": "node",
+    "group-pull-request-title-pattern": "chore: staging-release ${version}",
     "packages": {
         ".": {
+            "package-name": "staging",
             "changelog-path": "CHANGELOG.md",
             "bump-minor-pre-major": false,
             "bump-patch-for-minor-pre-major": false,
