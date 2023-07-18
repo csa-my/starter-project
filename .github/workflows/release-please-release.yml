@@ -27,6 +27,7 @@ jobs:
           release-type: node
           package-name: release-please-action
           default-branch: release
+          changelog-path: "CHANGELOG-RELEASE.md"
       - run: | 
           echo "A release was created."
           echo "release_created: ${{ steps.release-please.outputs.release_created }}"
