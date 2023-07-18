@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.5](https://github.com/csa-my/starter-project/compare/staging-v1.6.4...staging-v1.6.5) (2023-07-18)
+
+
+### Bug Fixes
+
+* pr field to ci ([46dc2f6](https://github.com/csa-my/starter-project/commit/46dc2f60d144eabf99a7fb2d2e3e2a8c28bd41a4))
+
 ## [1.6.4](https://github.com/csa-my/starter-project/compare/staging-v1.6.3...staging-v1.6.4) (2023-07-18)
 
 
