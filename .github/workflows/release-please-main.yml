@@ -16,7 +16,7 @@ jobs:
       release_created: ${{ steps.release-please.outputs.release_created }}
       tag_name: ${{ steps.release-please.outputs.tag_name }}
       version: ${{ steps.release-please.outputs.version }}
-      # pr: ${{ steps.release-please.outputs.pr }}
+      pr: ${{ steps.release-please.outputs.pr }}
       # all: ${{ toJSON(steps.release-please.outputs) }}
     steps:
       - uses: google-github-actions/release-please-action@v3
@@ -46,6 +46,7 @@ jobs:
       run: |
           echo '${{ needs.release-please.outputs.pr }}'
           echo '${{ needs.release-please.outputs.prs }}'
+          echo '${{ toJSON(needs.steps.release-please.outputs) }}'
     - uses: docker/login-action@v2
       with:
           registry: registry.gitlab.com
