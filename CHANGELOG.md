@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/csa-my/starter-project/compare/starter-project-v1.0.0...starter-project-v1.1.0) (2023-07-18)
+
+
+### Features
+
+* setup release-please with environments ([2e314a7](https://github.com/csa-my/starter-project/commit/2e314a7915dc5435c17477984d7f217459fcc9a3))
+
 ## 1.0.0 (2023-07-18)
 
 
