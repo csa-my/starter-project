@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/csa-my/starter-project/compare/starter-project-v1.3.1...starter-project-v1.3.2) (2023-07-18)
+
+
+### Bug Fixes
+
+* removed if statement for staging ([2d1382e](https://github.com/csa-my/starter-project/commit/2d1382e3f1a3533a4c15b9ec7d7b2fe4b5566ed5))
+
 ## [1.3.1](https://github.com/csa-my/starter-project/compare/starter-project-v1.3.0...starter-project-v1.3.1) (2023-07-18)
 
 
