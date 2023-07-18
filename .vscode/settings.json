@@ -1,0 +1,18 @@
+{
+    "findUnusedExports.detectCircularImports": true,
+    "cSpell.words": [
+        "borderpoint",
+        "queryname",
+        "Wazuh"
+    ],
+    // "typescript.tsdk": "dashboard/node_modules/typescript/lib",
+    "files.autoSave": "afterDelay",
+    "eslint.lintTask.enable": true,
+    "typescript.tsserver.experimental.enableProjectDiagnostics": false,
+    "eslint.validate": [
+        "javascript",
+        "typescript",
+        "javascriptreact",
+        "typescriptreact"
+    ],
+}
