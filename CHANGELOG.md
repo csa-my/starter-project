@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.5](https://github.com/csa-my/starter-project/compare/starter-project-v1.3.4...starter-project-v1.3.5) (2023-07-18)
+
+
+### Bug Fixes
+
+* conditional for staging ([e358b3b](https://github.com/csa-my/starter-project/commit/e358b3bfdf932b1d4ab8eee58463778672a011f4))
+
 ## [1.3.4](https://github.com/csa-my/starter-project/compare/starter-project-v1.3.3...starter-project-v1.3.4) (2023-07-18)
 
 
