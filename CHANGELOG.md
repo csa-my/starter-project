@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.2](https://github.com/csa-my/starter-project/compare/starter-project-v1.6.1...starter-project-v1.6.2) (2023-07-18)
+
+
+### Bug Fixes
+
+* release config ([aa2c587](https://github.com/csa-my/starter-project/commit/aa2c58710b6d4dfcbae10e2a81d3543aa2aa737c))
+
 ## [1.6.1](https://github.com/csa-my/starter-project/compare/starter-project-v1.6.0...starter-project-v1.6.1) (2023-07-18)
 
 
