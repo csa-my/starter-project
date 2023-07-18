@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.6.6](https://github.com/csa-my/starter-project/compare/staging-v1.6.5...staging-v1.6.6) (2023-07-18)
+
+
+### Bug Fixes
+
+* pr ([5e6eaca](https://github.com/csa-my/starter-project/commit/5e6eaca935e92681467522ae0c9de11422a61caa))
+* pr 2 ([6d0f650](https://github.com/csa-my/starter-project/commit/6d0f6509e06dd34f283e07068ccf26421cb7cdf7))
+* pull request field added to main ([434a54e](https://github.com/csa-my/starter-project/commit/434a54e2af02bfe4be9f142fe62db30bea8bcc57))
+
 ## [1.6.5](https://github.com/csa-my/starter-project/compare/staging-v1.6.4...staging-v1.6.5) (2023-07-18)
 
 
