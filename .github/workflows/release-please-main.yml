@@ -16,7 +16,7 @@ jobs:
       release_created: ${{ steps.release-please.outputs.release_created }}
       tag_name: ${{ steps.release-please.outputs.tag_name }}
       version: ${{ steps.release-please.outputs.version }}
-      all: ${{ toJSON(steps.release-please.outputs) }}
+      # all: ${{ toJSON(steps.release-please.outputs) }}
     steps:
       - uses: google-github-actions/release-please-action@v3
         id: release-please
@@ -25,7 +25,13 @@ jobs:
           token: ${{ secrets.TOKEN }}
           release-type: node
           package-name: release-please-action
-      - run: echo "A release was created."
+      - run: | 
+          echo "A release was created."
+          echo "release_created: ${{ steps.release-please.outputs.release_created }}"
+          echo "html_url: ${{ steps.release-please.outputs.html_url }}"
+          echo "tag_name: ${{ steps.release-please.outputs.tag_name }}"
+          echo "sha: ${{ steps.release-please.outputs.sha }}"
+          echo "body: ${{ steps.release-please.outputs.body }}"
           
 
   staging:
@@ -36,9 +42,6 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-    - name: Login to GitLab Container Registry
-      run: |
-          echo '${{ toJSON(needs.release-please) }}'
     - uses: docker/login-action@v2
       with:
           registry: registry.gitlab.com
