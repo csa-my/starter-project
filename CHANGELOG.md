@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.4](https://github.com/csa-my/starter-project/compare/starter-project-v1.4.3...starter-project-v1.4.4) (2023-07-18)
+
+
+### Bug Fixes
+
+* changed release please config ([68f4d41](https://github.com/csa-my/starter-project/commit/68f4d41048da7fe66a57598f3afbbe07c0641683))
+
 ## [1.4.3](https://github.com/csa-my/starter-project/compare/starter-project-v1.4.2...starter-project-v1.4.3) (2023-07-18)
 
 
