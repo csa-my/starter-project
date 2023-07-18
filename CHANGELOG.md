@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.0](https://github.com/csa-my/starter-project/compare/starter-project-v1.3.5...starter-project-v1.4.0) (2023-07-18)
+
+
+### Features
+
+* staging dockerfile ([d23192b](https://github.com/csa-my/starter-project/commit/d23192b40fe765272f2826a4bac335284d5d8d98))
+
+
+### Bug Fixes
+
+* **release-please.yml:** added gitlab registry information ([d23192b](https://github.com/csa-my/starter-project/commit/d23192b40fe765272f2826a4bac335284d5d8d98))
+
 ## [1.3.5](https://github.com/csa-my/starter-project/compare/starter-project-v1.3.4...starter-project-v1.3.5) (2023-07-18)
 
 
