@@ -32,6 +32,7 @@ jobs:
       - name: Build staging
         run: |
           echo "Building staging"
+          echo '${{ toJSON(needs.release-please.outputs) }}'
 
   production:
     runs-on: ubuntu-latest
