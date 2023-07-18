@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.4](https://github.com/csa-my/starter-project/compare/starter-project-v1.3.3...starter-project-v1.3.4) (2023-07-18)
+
+
+### Bug Fixes
+
+* added id to ci ([a8df34b](https://github.com/csa-my/starter-project/commit/a8df34b1674ca345e2dac55b820c20082059c439))
+
 ## [1.3.3](https://github.com/csa-my/starter-project/compare/starter-project-v1.3.2...starter-project-v1.3.3) (2023-07-18)
 
 
