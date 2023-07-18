@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.7](https://github.com/csa-my/starter-project/compare/staging-v1.6.6...staging-v1.6.7) (2023-07-18)
+
+
+### Bug Fixes
+
+* https://github.com/google-github-actions/release-please-action/issues/776 ([8c7a020](https://github.com/csa-my/starter-project/commit/8c7a020cd1f753b919540676ed7d8d56adb62ace))
+
 ## [1.6.6](https://github.com/csa-my/starter-project/compare/staging-v1.6.5...staging-v1.6.6) (2023-07-18)
 
 
