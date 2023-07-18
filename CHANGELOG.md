@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.3](https://github.com/csa-my/starter-project/compare/starter-project-v1.4.2...starter-project-v1.4.3) (2023-07-18)
+
+
+### Bug Fixes
+
+* changed workflow name ([a2156dc](https://github.com/csa-my/starter-project/commit/a2156dcd86b5f44a121e3e035bc2a391be320f84))
+
 ## [1.4.2](https://github.com/csa-my/starter-project/compare/starter-project-v1.4.1...starter-project-v1.4.2) (2023-07-18)
 
 
