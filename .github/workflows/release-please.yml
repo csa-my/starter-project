@@ -13,14 +13,23 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     outputs:
-      release_created: ${{ steps.release.outputs.release_created }}
+      release_created: ${{ steps.release-please.outputs.release_created }}
+      tag_name: ${{ steps.release-please.outputs.tag_name }}
+      version: ${{ steps.release-please.outputs.version }}
+      all: ${{ toJSON(steps.release-please.outputs) }}
     steps:
       - uses: google-github-actions/release-please-action@v3
+        id: release-please
         with:
           command: manifest
           token: ${{ secrets.TOKEN }}
           release-type: node
           package-name: release-please-action
+      - run: echo "A release was created."
+        if: ${{ steps.release-please.outputs.releases_created }}
+      - run: |
+          echo '${{ toJSON(needs.release-please) }}'
+          
 
   staging:
     runs-on: ubuntu-latest
