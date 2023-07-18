@@ -34,7 +34,6 @@ jobs:
           echo "tag_name: ${{ steps.release-please.outputs.tag_name }}"
           echo "sha: ${{ steps.release-please.outputs.sha }}"
           echo "body: ${{ steps.release-please.outputs.body }}"
-          echo "pr: ${{ steps.release-please.outputs.pr }}"
           
 
   # staging:
