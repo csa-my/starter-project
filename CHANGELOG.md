@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/csa-my/starter-project/compare/starter-project-v1.3.0...starter-project-v1.3.1) (2023-07-18)
+
+
+### Bug Fixes
+
+* ci ([af50743](https://github.com/csa-my/starter-project/commit/af50743faf60c967a9bd32e95c69b05a5fdefb1f))
+
 ## [1.3.0](https://github.com/csa-my/starter-project/compare/starter-project-v1.2.0...starter-project-v1.3.0) (2023-07-18)
 
 
