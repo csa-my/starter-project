@@ -33,8 +33,6 @@ jobs:
           echo "tag_name: ${{ steps.release-please.outputs.tag_name }}"
           echo "sha: ${{ steps.release-please.outputs.sha }}"
           echo "body: ${{ steps.release-please.outputs.body }}"
-          echo "pr: ${{ steps.release-please.outputs.pr }}"
-          echo "prs: ${{ steps.release-please.outputs.prs }}"
 
   staging:
     runs-on: ubuntu-latest
@@ -44,6 +42,10 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+    - name: Login to GitLab Container Registry
+      run: |
+          echo '${{ needs.release-please.outputs.pr }}'
+          echo '${{ needs.release-please.outputs.prs }}'
     - uses: docker/login-action@v2
       with:
           registry: registry.gitlab.com
