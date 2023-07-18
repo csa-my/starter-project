@@ -16,15 +16,15 @@ jobs:
       release_created: ${{ steps.release-please.outputs.release_created }}
       tag_name: ${{ steps.release-please.outputs.tag_name }}
       version: ${{ steps.release-please.outputs.version }}
-      all: ${{ steps.release-please.outputs }}
+      all: ${{ toJSON(steps.release-please.outputs) }}
     steps:
       - uses: google-github-actions/release-please-action@v3
         id: release-please
         with:
-          # command: manifest
+          command: manifest
           token: ${{ secrets.TOKEN }}
           release-type: node
-          package-name: starter-project
+          package-name: release-please-action
           default-branch: release
       - run: echo "A release was created."
           
