@@ -26,15 +26,12 @@ jobs:
           release-type: node
           package-name: release-please-action
       - run: echo "A release was created."
-        if: ${{ steps.release-please.outputs.releases_created }}
-      - run: |
-          echo '${{ toJSON(needs.release-please) }}'
           
 
   staging:
     runs-on: ubuntu-latest
     needs: release-please
-    # if: ${{ needs.release-please.outputs.release_created }}
+    if: ${{ needs.release-please.outputs.release_created }}
     environment: staging
     steps:
       - uses: actions/checkout@v3
