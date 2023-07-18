@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.6.3](https://github.com/csa-my/starter-project/compare/v1.5.0...v1.6.3) (2023-07-18)
+
+
+### Bug Fixes
+
+* changed pull request title pattern ([8231e62](https://github.com/csa-my/starter-project/commit/8231e62f5ced580a848ba0c174fae22942190502))
+* ci ([ff2b713](https://github.com/csa-my/starter-project/commit/ff2b713ba7086b75a527c5d42a59f52c5023a88d))
+* commented out production ([23f2cde](https://github.com/csa-my/starter-project/commit/23f2cde1e5d548ba3589e125e4a60da77ffaa872))
+* pull request title pattern main ([7c1539a](https://github.com/csa-my/starter-project/commit/7c1539a3f3ef21cbc222662bc9d6e9e586f9f1be))
+* release config ([aa2c587](https://github.com/csa-my/starter-project/commit/aa2c58710b6d4dfcbae10e2a81d3543aa2aa737c))
+* title ([68f578f](https://github.com/csa-my/starter-project/commit/68f578f80d1362b22caf55fd1de223f2f050a620))
+* title bootstrap ([ebc24a1](https://github.com/csa-my/starter-project/commit/ebc24a16d7fbf896483f67795cd0f6f4f0517c8b))
+
 ## [1.6.3](https://github.com/csa-my/starter-project/compare/staging-v1.6.2...staging-v1.6.3) (2023-07-18)
 
 
