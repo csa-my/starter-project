@@ -1,41 +1,17 @@
 # Changelog
 
-## [1.6.8](https://github.com/csa-my/starter-project/compare/staging-v1.6.7...staging-v1.6.8) (2023-07-19)
+## [1.6.3](https://github.com/csa-my/starter-project/compare/v1.5.0...v1.6.3) (2023-07-18)
 
 
 ### Bug Fixes
 
-* test ([bb5a82a](https://github.com/csa-my/starter-project/commit/bb5a82aa6c72cffd35e1c83db59ba2f84a48c294))
-
-## [1.6.7](https://github.com/csa-my/starter-project/compare/staging-v1.6.6...staging-v1.6.7) (2023-07-18)
-
-
-### Bug Fixes
-
-* https://github.com/google-github-actions/release-please-action/issues/776 ([8c7a020](https://github.com/csa-my/starter-project/commit/8c7a020cd1f753b919540676ed7d8d56adb62ace))
-
-## [1.6.6](https://github.com/csa-my/starter-project/compare/staging-v1.6.5...staging-v1.6.6) (2023-07-18)
-
-
-### Bug Fixes
-
-* pr ([5e6eaca](https://github.com/csa-my/starter-project/commit/5e6eaca935e92681467522ae0c9de11422a61caa))
-* pr 2 ([6d0f650](https://github.com/csa-my/starter-project/commit/6d0f6509e06dd34f283e07068ccf26421cb7cdf7))
-* pull request field added to main ([434a54e](https://github.com/csa-my/starter-project/commit/434a54e2af02bfe4be9f142fe62db30bea8bcc57))
-
-## [1.6.5](https://github.com/csa-my/starter-project/compare/staging-v1.6.4...staging-v1.6.5) (2023-07-18)
-
-
-### Bug Fixes
-
-* pr field to ci ([46dc2f6](https://github.com/csa-my/starter-project/commit/46dc2f60d144eabf99a7fb2d2e3e2a8c28bd41a4))
-
-## [1.6.4](https://github.com/csa-my/starter-project/compare/staging-v1.6.3...staging-v1.6.4) (2023-07-18)
-
-
-### Bug Fixes
-
-* altered console log for ci ([0cd0111](https://github.com/csa-my/starter-project/commit/0cd01115303d3756cc49861de4e93d500bda73bf))
+* changed pull request title pattern ([8231e62](https://github.com/csa-my/starter-project/commit/8231e62f5ced580a848ba0c174fae22942190502))
+* ci ([ff2b713](https://github.com/csa-my/starter-project/commit/ff2b713ba7086b75a527c5d42a59f52c5023a88d))
+* commented out production ([23f2cde](https://github.com/csa-my/starter-project/commit/23f2cde1e5d548ba3589e125e4a60da77ffaa872))
+* pull request title pattern main ([7c1539a](https://github.com/csa-my/starter-project/commit/7c1539a3f3ef21cbc222662bc9d6e9e586f9f1be))
+* release config ([aa2c587](https://github.com/csa-my/starter-project/commit/aa2c58710b6d4dfcbae10e2a81d3543aa2aa737c))
+* title ([68f578f](https://github.com/csa-my/starter-project/commit/68f578f80d1362b22caf55fd1de223f2f050a620))
+* title bootstrap ([ebc24a1](https://github.com/csa-my/starter-project/commit/ebc24a16d7fbf896483f67795cd0f6f4f0517c8b))
 
 ## [1.6.3](https://github.com/csa-my/starter-project/compare/staging-v1.6.2...staging-v1.6.3) (2023-07-18)
 
