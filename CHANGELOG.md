@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/csa-my/starter-project/compare/starter-project-v1.4.0...starter-project-v1.4.1) (2023-07-18)
+
+
+### Bug Fixes
+
+* changed docker push build to v4 ([987fd73](https://github.com/csa-my/starter-project/commit/987fd732a66150f47b993590c427b0b8247ee8ab))
+
 ## [1.4.0](https://github.com/csa-my/starter-project/compare/starter-project-v1.3.5...starter-project-v1.4.0) (2023-07-18)
 
 
