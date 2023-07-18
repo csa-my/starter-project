@@ -34,6 +34,8 @@ jobs:
     environment: staging
     if: ${{ needs.release-please.outputs.release_created }}
     steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
     - name: Login to GitLab Container Registry
       run: |
           echo '${{ toJSON(needs.release-please) }}'
@@ -43,7 +45,7 @@ jobs:
           username: ${{ secrets.GITLAB_USERNAME }}
           password: ${{ secrets.GITLAB_PASSWORD }}
     - name: Build and push staging
-      uses: docker/build-push-action@v3
+      uses: docker/build-push-action@v4
       with:
           context: .
           file: staging.Dockerfile
