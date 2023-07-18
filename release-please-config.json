@@ -1,6 +1,6 @@
 {
     "release-type": "node",
-    "pull-request-title-pattern": "chore: staging-release ${version}",
+    "pull-request-title-pattern": "chore${branch}: staging-release ${version}",
     "packages": {
         ".": {
             "package-name": "staging",
