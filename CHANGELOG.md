@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/csa-my/starter-project/compare/starter-project-v1.1.0...starter-project-v1.2.0) (2023-07-18)
+
+
+### Features
+
+* added console log ([0d85553](https://github.com/csa-my/starter-project/commit/0d85553133fbe40bced115928ae27970a8f75076))
+
 ## [1.1.0](https://github.com/csa-my/starter-project/compare/starter-project-v1.0.0...starter-project-v1.1.0) (2023-07-18)
 
 
