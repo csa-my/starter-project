@@ -62,6 +62,17 @@ jobs:
         JIRA_USER_EMAIL: ${{ secrets.JIRA_USER_EMAIL }}
         JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}       
 
+    - name: Create ticket
+      uses: elisa-actions/jira-issue@v1
+      with:
+        github-token: ${{ secrets.TOKEN }}
+        jira-host: ${{ secrets.JIRA_BASE_URL }}
+        jira-username: ${{ secrets.JIRA_USER_EMAIL }}
+        jira-password: ${{ secrets.JIRA_API_TOKEN }}
+        title: "Test Issue GitHub Action"
+        description: "This is a test ticket created from GitHub Action"
+        action: "create-issue"
+
     - name: Create Jira issue
       id: create_jira_issue
       uses: atlassian/gajira-create@v3
