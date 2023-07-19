@@ -1,0 +1,14 @@
+create:
+  issue_link_type: "Cause"
+  fields:
+    project:
+      id: "10061"
+    issuetype:
+      id: "10044"
+
+resolve:
+  transition:
+    id: "21"
+  fields:
+    resolution:
+      id: "10000"
