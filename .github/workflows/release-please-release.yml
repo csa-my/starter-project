@@ -35,7 +35,18 @@ jobs:
           echo "tag_name: ${{ steps.release-please.outputs.tag_name }}"
           echo "sha: ${{ steps.release-please.outputs.sha }}"
           echo "body: ${{ steps.release-please.outputs.body }}"
-          
+
+  output-release-please:
+    runs-on: ubuntu-latest
+    needs: release-please
+    # if: ${{ needs.release-please.outputs.release_created }}
+    # environment: production
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build production
+        run: |
+          echo "Building production"
+          echo '${{ toJSON(needs.release-please) }}'          
 
   # staging:
   #   runs-on: ubuntu-latest
