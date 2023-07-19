@@ -69,7 +69,7 @@ jobs:
   production:
     runs-on: ubuntu-latest
     # needs: staging
-    if: ${{ needs.release-please.outputs.release_created }}
+    # if: ${{ needs.release-please.outputs.release_created }}
     environment: production
     steps:
       - uses: actions/checkout@v3
