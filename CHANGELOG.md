@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.12](https://github.com/csa-my/starter-project/compare/staging-v1.6.11...staging-v1.6.12) (2023-07-19)
+
+
+### Bug Fixes
+
+* yaml error for fields ([bf066cd](https://github.com/csa-my/starter-project/commit/bf066cd564fd8597c9cc58a95bba72a61d5c9b9a))
+
 ## [1.6.11](https://github.com/csa-my/starter-project/compare/staging-v1.6.10...staging-v1.6.11) (2023-07-19)
 
 
