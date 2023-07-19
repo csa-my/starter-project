@@ -5,7 +5,7 @@ create:
       id: "10061"
     priority:
       id: "4"
-    labels: "[dashboard]"
+    labels: '["dashboard"]'
     issuetype:
       id: "10044"
     assignee:
