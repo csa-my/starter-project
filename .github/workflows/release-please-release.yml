@@ -54,18 +54,19 @@ jobs:
     # if: ${{ needs.release-please.outputs.release_created }}
     # environment: production
     steps:
-    - name: Jira Login
-      id: login
-      uses: atlassian/gajira-login@v3
-      env:
-        JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
-        JIRA_USER_EMAIL: ${{ secrets.JIRA_USER_EMAIL }}
-        JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}       
+    # - name: Jira Login
+    #   id: login
+    #   uses: atlassian/gajira-login@v3
+    #   env:
+    #     JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
+    #     JIRA_USER_EMAIL: ${{ secrets.JIRA_USER_EMAIL }}
+    #     JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}       
 
     - name: Create ticket
       uses: elisa-actions/jira-issue@v1
       with:
         github-token: ${{ secrets.TOKEN }}
+        version: "00"
         jira-host: ${{ secrets.JIRA_BASE_URL }}
         jira-username: ${{ secrets.JIRA_USER_EMAIL }}
         jira-password: ${{ secrets.JIRA_API_TOKEN }}
@@ -73,19 +74,19 @@ jobs:
         description: "This is a test ticket created from GitHub Action"
         action: "create-issue"
 
-    - name: Create Jira issue
-      id: create_jira_issue
-      uses: atlassian/gajira-create@v3
-      with:
-        project: ENIT
-        issuetype: Task
-        summary: |
-           Test Ticket GitHub Action
-        description: |
-          This is a test ticket created from GitHub Action 
-          Created By
-        fields: | 
-         '{"labels": ["dashboard"]}'
+    # - name: Create Jira issue
+    #   id: create_jira_issue
+    #   uses: atlassian/gajira-create@v3
+    #   with:
+    #     project: ENIT
+    #     issuetype: Task
+    #     summary: |
+    #        Test Ticket GitHub Action
+    #     description: |
+    #       This is a test ticket created from GitHub Action 
+    #       Created By
+    #     fields: | 
+    #      '{"labels": ["dashboard"]}'
 
 
   # staging:
