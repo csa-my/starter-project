@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.13](https://github.com/csa-my/starter-project/compare/v1.6.12...v1.6.13) (2023-07-19)
+
+
+### Bug Fixes
+
+* jira ([e76079e](https://github.com/csa-my/starter-project/commit/e76079e528f80c26743ebb0c674b165d79102c61))
+
 ## [1.6.12](https://github.com/csa-my/starter-project/compare/v1.6.11...v1.6.12) (2023-07-19)
 
 
