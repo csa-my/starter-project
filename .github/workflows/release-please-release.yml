@@ -48,10 +48,8 @@ jobs:
       - name: Build production
         run: |
           echo "Building production"
-          echo '${{ needs.release-please.outputs.pr.body }}'          
-          echo '${{ needs.release-please.outputs.pr_number }}'          
           echo '${{ fromJson(needs.release-please.outputs.pr).body }}'          
-          echo '${{ fromJson(needs.release-please.outputs.pr).number }}'          
+          echo 'https://github.com/csa-my/starter-project/pull/${{ fromJson(needs.release-please.outputs.pr).number }}'          
 
   # create-jira-issue:
   #   runs-on: ubuntu-latest
