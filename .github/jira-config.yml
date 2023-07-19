@@ -3,8 +3,13 @@ create:
   fields:
     project:
       id: "10061"
+    priority:
+      id: "4"
+    labels: "dashboard"
     issuetype:
       id: "10044"
+    assignee:
+      id: "603fa4b5cc13b60069a5a61b"
 
 resolve:
   transition:

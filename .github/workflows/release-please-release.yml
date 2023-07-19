@@ -51,7 +51,7 @@ jobs:
   create-jira-issue:
     runs-on: ubuntu-latest
     needs: release-please
-    # if: ${{ needs.release-please.outputs.release_created }}
+    if: ${{ needs.release-please.outputs.pr }}
     # environment: production
     steps:
     # - name: Jira Login
@@ -74,7 +74,10 @@ jobs:
         jira-username: ${{ secrets.JIRA_USER_EMAIL }}
         jira-password: ${{ secrets.JIRA_API_TOKEN }}
         title: "Test Issue GitHub Action"
-        description: "This is a test ticket created from GitHub Action"
+        description: | 
+          "This is a test ticket created from GitHub Action"
+          pr_body: ${{ needs.release-please.outputs.pr.body }}
+
         action: "create-issue"
         link-release: false
         include-author: false
