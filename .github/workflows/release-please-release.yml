@@ -70,11 +70,11 @@ jobs:
       with:
         github-token: ${{ secrets.TOKEN }}
         version: "00"
-        jira-host: ${{ secrets.JIRA_BASE_URL }}
+        jira-host: "csaltd.atlassian.net"
         jira-username: ${{ secrets.JIRA_USER_EMAIL }}
         jira-password: ${{ secrets.JIRA_API_TOKEN }}
-        title: Test Issue GitHub Action
-        description: This is a test ticket created from GitHub Action
+        title: "Test Issue GitHub Action"
+        description: "This is a test ticket created from GitHub Action"
         action: "create-issue"
         link-release: false
         include-author: false
