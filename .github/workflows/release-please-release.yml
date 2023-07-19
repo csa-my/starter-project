@@ -76,7 +76,7 @@ jobs:
         title: "Test Issue GitHub Action"
         description: | 
           "This is a test ticket created from GitHub Action"
-          pr_body: ${{ needs.release-please.outputs.pr.body }}
+          pr: ${{ needs.release-please.outputs.pr }}
 
         action: "create-issue"
         link-release: false
