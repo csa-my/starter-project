@@ -50,9 +50,8 @@ jobs:
           echo "Building production"
           echo '${{ needs.release-please.outputs.pr.body }}'          
           echo '${{ needs.release-please.outputs.pr_number }}'          
-          echo '${{ needs.release-please.outputs.prs }}'          
-          echo '${{ toJSON(needs.release-please.outputs.pr.body) }}'          
-          echo '${{ toJSON(needs.release-please.outputs.pr.number) }}'          
+          echo '${{ fromJson(needs.release-please.outputs.pr).body }}'          
+          echo '${{ fromJson(needs.release-please.outputs.pr).number }}'          
 
   # create-jira-issue:
   #   runs-on: ubuntu-latest
