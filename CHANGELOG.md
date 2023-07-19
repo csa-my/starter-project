@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.10](https://github.com/csa-my/starter-project/compare/staging-v1.6.9...staging-v1.6.10) (2023-07-19)
+
+
+### Bug Fixes
+
+* release-please yml ([67b48bc](https://github.com/csa-my/starter-project/commit/67b48bc4f62f0ca0f213640ab6d82352a74a9d22))
+
 ## [1.6.9](https://github.com/csa-my/starter-project/compare/staging-v1.6.8...staging-v1.6.9) (2023-07-19)
 
 
