@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.6.15](https://github.com/csa-my/starter-project/compare/v1.6.14...v1.6.15) (2023-07-19)
+
+
+### Bug Fixes
+
+* concatenation for pull request url ([a0c9e88](https://github.com/csa-my/starter-project/commit/a0c9e88d516c2b4c410196c5e2fc2e9f5a466932))
+* testing pr ([8533d94](https://github.com/csa-my/starter-project/commit/8533d94919fa0f40f16c482842a19040e9f1d8c9))
+* using fromJSON ([0cfdeff](https://github.com/csa-my/starter-project/commit/0cfdeff642888168ad2e28251ee13f498c32a22d))
+
 ## [1.6.14](https://github.com/csa-my/starter-project/compare/v1.6.13...v1.6.14) (2023-07-19)
 
 
