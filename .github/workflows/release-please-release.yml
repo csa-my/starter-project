@@ -76,6 +76,9 @@ jobs:
         title: "Test Issue GitHub Action"
         description: "This is a test ticket created from GitHub Action"
         action: "create-issue"
+        link-release: false
+        include-author: false
+        include-reviews: false
 
     # - name: Create Jira issue
     #   id: create_jira_issue
