@@ -17,6 +17,7 @@ jobs:
       tag_name: ${{ steps.release-please.outputs.tag_name }}
       version: ${{ steps.release-please.outputs.version }}
       pr: ${{ steps.release-please.outputs.pr }}
+      prs: ${{ steps.release-please.outputs.prs }}
       pr_number: ${{ steps.release-please.outputs.pr.number }}
       # all: ${{ toJSON(steps.release-please.outputs) }}
     steps:
@@ -49,6 +50,7 @@ jobs:
           echo "Building production"
           echo '${{ needs.release-please.outputs.pr.body }}'          
           echo '${{ needs.release-please.outputs.pr_number }}'          
+          echo '${{ needs.release-please.outputs.prs }}'          
           echo '${{ toJSON(needs.release-please.outputs.pr.body) }}'          
           echo '${{ toJSON(needs.release-please.outputs.pr.number) }}'          
 
