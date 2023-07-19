@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.11](https://github.com/csa-my/starter-project/compare/staging-v1.6.10...staging-v1.6.11) (2023-07-19)
+
+
+### Bug Fixes
+
+* conditional for jira block ([74fa36d](https://github.com/csa-my/starter-project/commit/74fa36dc3ecd1028456662aa34bb97d8a3390724))
+* jira login and create issue ([d3cd736](https://github.com/csa-my/starter-project/commit/d3cd736ba1b2f48d5361313428a6a703e37c5e0c))
+
 ## [1.6.10](https://github.com/csa-my/starter-project/compare/staging-v1.6.9...staging-v1.6.10) (2023-07-19)
 
 

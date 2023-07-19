@@ -75,7 +75,7 @@ jobs:
           *Created By:* ${{ github.event.issue.user.login }}
         fields: | 
          '{"labels": ["dashboard"]}'
-         '{"priority": {"name": "Priority 4", "id": 4}}
+         '{"priority": {"name": "Priority 4", "id": 4}}'
 
 
   # staging:
