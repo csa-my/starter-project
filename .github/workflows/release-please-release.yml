@@ -72,7 +72,7 @@ jobs:
            Test Ticket GitHub Action
         description: |
           This is a test ticket created from GitHub Action 
-          *Created By:* ${{ github.event.issue.user.login }}
+          Created By: ${{ github.event.issue.user.login }}
         fields: | 
          '{"labels": ["dashboard"]}'
 
