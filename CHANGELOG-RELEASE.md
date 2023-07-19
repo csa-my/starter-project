@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.8](https://github.com/csa-my/starter-project/compare/v1.6.7...v1.6.8) (2023-07-19)
+
+
+### Bug Fixes
+
+* test ([bb5a82a](https://github.com/csa-my/starter-project/commit/bb5a82aa6c72cffd35e1c83db59ba2f84a48c294))
+
 ## [1.6.7](https://github.com/csa-my/starter-project/compare/v1.6.3...v1.6.7) (2023-07-18)
 
 
