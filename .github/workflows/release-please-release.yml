@@ -72,9 +72,9 @@ jobs:
         title: "Test Issue GitHub Action"
         description: | 
           ${{ fromJson(needs.release-please.outputs.pr).body }}
-          \n
+          echo '\n'
           https://github.com/csa-my/starter-project/pull/${{ fromJson(needs.release-please.outputs.pr).number }}
-          \n
+          echo '\n'
 
         action: "create-issue"
         link-release: false
