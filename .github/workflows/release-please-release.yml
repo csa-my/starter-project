@@ -30,6 +30,7 @@ jobs:
           package-name: release-please-action
           default-branch: release
           changelog-path: "CHANGELOG-RELEASE.md"
+          pull-request-header: ""
       - run: | 
           echo "A release was created."
           echo "release_created: ${{ steps.release-please.outputs.release_created }}"
