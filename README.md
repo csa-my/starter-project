@@ -9,3 +9,5 @@
 [Workflow commands for GitHub Actions - GitHub Docs](https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions)
 
 [GitHub - elisa-actions/jira-issue: Github Action for creating JIRA issues](https://github.com/elisa-actions/jira-issue)
+
+https://github.com/googleapis/release-please/blob/main/.github/CODEOWNERS
