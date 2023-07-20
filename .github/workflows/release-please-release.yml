@@ -71,10 +71,12 @@ jobs:
         jira-password: ${{ secrets.JIRA_API_TOKEN }}
         title: "Test Issue GitHub Action"
         description: | 
+          ([PR #${{ fromJson(needs.release-please.outputs.pr).number }}|https://github.com/csa-my/starter-project/pull/${{ fromJson(needs.release-please.outputs.pr).number }}])
           ${{ fromJson(needs.release-please.outputs.pr).body }}
-          echo '\n'
+          \\
+          \\n
           https://github.com/csa-my/starter-project/pull/${{ fromJson(needs.release-please.outputs.pr).number }}
-          echo '\n'
+          \\n
 
         action: "create-issue"
         link-release: false
