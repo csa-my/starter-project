@@ -69,14 +69,13 @@ jobs:
         jira-host: "csaltd.atlassian.net"
         jira-username: ${{ secrets.JIRA_USER_EMAIL }}
         jira-password: ${{ secrets.JIRA_API_TOKEN }}
-        title: "Test Issue GitHub Action"
+        title: Dashboard Approval Request | ${{ fromJson(needs.release-please.outputs.pr).title }}
         description: | 
-          ([PR #${{ fromJson(needs.release-please.outputs.pr).number }}|https://github.com/csa-my/starter-project/pull/${{ fromJson(needs.release-please.outputs.pr).number }}])
+          Visit this Pull Request to review these change [#${{ fromJson(needs.release-please.outputs.pr).number }}|https://github.com/csa-my/starter-project/pull/${{ fromJson(needs.release-please.outputs.pr).number }}]
           ${{ fromJson(needs.release-please.outputs.pr).body }}
           \\
-          \\n
           https://github.com/csa-my/starter-project/pull/${{ fromJson(needs.release-please.outputs.pr).number }}
-          \\n
+          \\
 
         action: "create-issue"
         link-release: false
