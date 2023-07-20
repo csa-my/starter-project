@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.6.15](https://github.com/csa-my/starter-project/compare/v1.6.14...v1.6.15) (2023-07-20)
+
+
+### Bug Fixes
+
+* changed title and populated description for jira issue ([0f5f2cc](https://github.com/csa-my/starter-project/commit/0f5f2cc4c2e426177c252f93f2255ea6630270b7))
+* changing pull request header ([b1fcbdc](https://github.com/csa-my/starter-project/commit/b1fcbdc008a6919162f22925e8fca739a658376f))
+* concatenation for pull request url ([a0c9e88](https://github.com/csa-my/starter-project/commit/a0c9e88d516c2b4c410196c5e2fc2e9f5a466932))
+* newline between description ([f87d2c5](https://github.com/csa-my/starter-project/commit/f87d2c5de6de86578bf7fb95c1df37430c879b18))
+* pull-request header ([cc0efc5](https://github.com/csa-my/starter-project/commit/cc0efc5adacad90e68224e646af7ccba67dccbb3))
+* pull-request-header ([37e20bc](https://github.com/csa-my/starter-project/commit/37e20bc942805197a8f6bc2bc181f7cd378702a9))
+* readme ([f87d2c5](https://github.com/csa-my/starter-project/commit/f87d2c5de6de86578bf7fb95c1df37430c879b18))
+* set pull request body for creation of ticket ([3cbf9ba](https://github.com/csa-my/starter-project/commit/3cbf9ba598e2671aa6d8e5a454319f75ac6f9f56))
+* testing description new line ([534dd44](https://github.com/csa-my/starter-project/commit/534dd449c29c503809b07453b963678327c9cf5f))
+* testing pr ([8533d94](https://github.com/csa-my/starter-project/commit/8533d94919fa0f40f16c482842a19040e9f1d8c9))
+* trying different approach for new line ([910dc18](https://github.com/csa-my/starter-project/commit/910dc18370b411a8fe7439f90aa9c259da6f6fb5))
+* using fromJSON ([0cfdeff](https://github.com/csa-my/starter-project/commit/0cfdeff642888168ad2e28251ee13f498c32a22d))
+
 ## [1.6.14](https://github.com/csa-my/starter-project/compare/v1.6.13...v1.6.14) (2023-07-19)
 
 
