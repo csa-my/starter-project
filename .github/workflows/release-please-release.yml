@@ -30,7 +30,7 @@ jobs:
           package-name: release-please-action
           default-branch: release
           changelog-path: "CHANGELOG-RELEASE.md"
-          pull-request-header: ""
+          pull-request-header: "Release"
       - run: | 
           echo "A release was created."
           echo "release_created: ${{ steps.release-please.outputs.release_created }}"
@@ -52,36 +52,36 @@ jobs:
           echo '${{ fromJson(needs.release-please.outputs.pr).body }}'          
           echo 'https://github.com/csa-my/starter-project/pull/${{ fromJson(needs.release-please.outputs.pr).number }}'          
 
-  create-jira-issue:
-    runs-on: ubuntu-latest
-    needs: release-please
-    if: ${{ needs.release-please.outputs.pr }}
-    # environment: production
-    steps:      
+  # create-jira-issue:
+  #   runs-on: ubuntu-latest
+  #   needs: release-please
+  #   if: ${{ needs.release-please.outputs.pr }}
+  #   # environment: production
+  #   steps:      
 
-    - name: Clone PR branch
-      uses: actions/checkout@v2
+  #   - name: Clone PR branch
+  #     uses: actions/checkout@v2
 
-    - name: Create ticket
-      uses: elisa-actions/jira-issue@v1
-      with:
-        github-token: ${{ secrets.TOKEN }}
-        version: "00"
-        jira-host: "csaltd.atlassian.net"
-        jira-username: ${{ secrets.JIRA_USER_EMAIL }}
-        jira-password: ${{ secrets.JIRA_API_TOKEN }}
-        title: Dashboard Approval Request | ${{ fromJson(needs.release-please.outputs.pr).title }}
-        description: | 
-          Visit this Pull Request to review these change [#${{ fromJson(needs.release-please.outputs.pr).number }}|https://github.com/csa-my/starter-project/pull/${{ fromJson(needs.release-please.outputs.pr).number }}]
-          ${{ fromJson(needs.release-please.outputs.pr).body }}
-          \\
-          https://github.com/csa-my/starter-project/pull/${{ fromJson(needs.release-please.outputs.pr).number }}
-          \\
+  #   - name: Create ticket
+  #     uses: elisa-actions/jira-issue@v1
+  #     with:
+  #       github-token: ${{ secrets.TOKEN }}
+  #       version: "00"
+  #       jira-host: "csaltd.atlassian.net"
+  #       jira-username: ${{ secrets.JIRA_USER_EMAIL }}
+  #       jira-password: ${{ secrets.JIRA_API_TOKEN }}
+  #       title: Dashboard Approval Request | ${{ fromJson(needs.release-please.outputs.pr).title }}
+  #       description: | 
+  #         Visit this Pull Request [#${{ fromJson(needs.release-please.outputs.pr).number }}|https://github.com/csa-my/starter-project/pull/${{ fromJson(needs.release-please.outputs.pr).number }}] to review these change
+  #         ${{ fromJson(needs.release-please.outputs.pr).body }}
+  #         \\
+  #         https://github.com/csa-my/starter-project/pull/${{ fromJson(needs.release-please.outputs.pr).number }}
+  #         \\
 
-        action: "create-issue"
-        link-release: false
-        include-author: false
-        include-reviews: false
+  #       action: "create-issue"
+  #       link-release: false
+  #       include-author: false
+  #       include-reviews: false
 
 
   # staging:
