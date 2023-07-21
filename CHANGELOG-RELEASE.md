@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.16](https://github.com/csa-my/starter-project/compare/v1.6.15...v1.6.16) (2023-07-21)
+
+
+### Bug Fixes
+
+* auto assigning users to pull request ([1a0d2cc](https://github.com/csa-my/starter-project/commit/1a0d2cc89c148af5898b9e69bdb4a8c800a87d5d))
+* testing flow ([af43696](https://github.com/csa-my/starter-project/commit/af43696d6588c17869c394efa4e575d4109b1d92))
+
 ## [1.6.15](https://github.com/csa-my/starter-project/compare/v1.6.14...v1.6.15) (2023-07-20)
 
 
