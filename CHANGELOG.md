@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.15](https://github.com/csa-my/starter-project/compare/staging-v1.6.14...staging-v1.6.15) (2023-09-07)
+
+
+### Bug Fixes
+
+* testing google-release ([be45e60](https://github.com/csa-my/starter-project/commit/be45e60f1378fac18b331fc41e2af20dd321d643))
+
 ## [1.6.14](https://github.com/csa-my/starter-project/compare/staging-v1.6.13...staging-v1.6.14) (2023-07-20)
 
 
